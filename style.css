@@ -117,6 +117,8 @@ input[type="radio"] {
 }
 .note {
   text-align: center;
-  font-size: 1rem;
-  color: #666;
+  font-size: 0.8rem;
+  color: #999;
+  justify-content: center;
+  align-items: center;
 }
