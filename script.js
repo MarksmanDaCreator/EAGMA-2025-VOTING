@@ -4,7 +4,7 @@ document.getElementById("voteForm").addEventListener("submit", function (e) {
   const form = e.target;
   const formData = new FormData(form);
 
-  fetch("YOUR_WEB_APP_URL", {
+  fetch("https://script.google.com/macros/s/AKfycbwZ1uprtDn2LqATbIbrh5bLZCxTGiJAczvafh8gvNLqD69SFAYK2FGjfBUQYv6crt0/exec", {
     method: "POST",
     body: formData
   })
